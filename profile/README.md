@@ -5,6 +5,11 @@
 
 ### Now is the time to move on to the Shadow DOM, throw the Virtual DOM out the window!
 
+<img width="1351" alt="code2" src="https://user-images.githubusercontent.com/4404088/198875149-1f19c63a-1e90-455f-8132-fe8a0605e58e.png">
+
+<details>
+  <summary>Show as text</summary>
+
 ```js
 class Greeting extends Craft.UI.View {
     constructor() {
@@ -82,4 +87,6 @@ class World extends HelloPlace {
         `;
     }
 }
-```
+``` 
+
+</details>
