@@ -45,18 +45,40 @@ class Greeting extends Craft.UI.View {
     }
 }
 
-class Local extends Craft.UI.View {
+class HelloPlace extends Craft.UI.View {
+    constructor() {
+        super();
+        this.data = { place: "Any Where" };
+    }
+    style(componentId) {
+        return `
+            .msg { color: blue; }
+        `;
+    }
     template(componentId) {
         return `
-            <div class="root">Local</div>
+            <div class="root">
+                <span class="msg">${this.data.place}<\span>
+            </div>
         `;
     }
 }
 
-class World extends Craft.UI.View {
-    template(componentId) {
-        return `
-            <div class="root">World</div>
+class Local extends HelloPlace {
+    constructor() {
+        super();
+        this.data = { place: "Local" };
+    }
+}
+
+class World extends HelloPlace {
+    constructor() {
+        super();
+        this.data = { place: "World!" };
+    }
+    style(componentId) {
+        return super.style(componentId) + `
+            .msg { color: red; }
         `;
     }
 }
