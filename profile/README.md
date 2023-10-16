@@ -1,9 +1,8 @@
+# Write web apps as if they're native apps!
 
-# Write your web app like a native app!
+## Craftkit is a cutting-edge library designed for imperative programming on the web, harnessing the power of the Shadow DOM. 
 
-## craftkit is a new library for imperative programming on the web powered by the Shadow DOM
-
-### Now is the time to move on to the Shadow DOM, throw the Virtual DOM out the window!
+### It's time to embrace the Shadow DOM and leave the Virtual DOM behind!
 
 <img width="1351" alt="code2" src="https://user-images.githubusercontent.com/4404088/198875149-1f19c63a-1e90-455f-8132-fe8a0605e58e.png">
 
